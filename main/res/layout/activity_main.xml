@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272626"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="4dp"
+        android:background="#686464"
+        android:backgroundTint="#706A6A"
+        android:outlineSpotShadowColor="@android:color/darker_gray"
+        android:text="Add"
+        android:textSize="32dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:background="#7C7979"
+        android:backgroundTint="#807A7A"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="247dp"
+        android:layout_height="135dp"
+        android:layout_centerInParent="true"
+        android:text="To Do List App"
+        android:textColor="#000000"
+        android:textFontWeight="1000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
